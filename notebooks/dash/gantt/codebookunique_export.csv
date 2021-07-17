@@ -1,0 +1,108 @@
+UniqueActivity,ActivityGroup,MeasureDescription
+H3_Contact tracing_2,Contact Tracing,Comprehensive
+H3_Contact tracing_1,Contact Tracing,Limited
+C1_Flag_0,School Closures,Targeted
+C1_Flag_1,School Closures,General
+C1_Flag_Blank,School Closures,No Data
+C1_School closing_0,School Closures,No Measures
+C1_School closing_1,School Closures,Recommend
+C1_School closing_2,School Closures,Require Some
+C1_School closing_3,School Closures,Require All
+C2_Flag_0,Workplace Closures,Targeted
+C2_Flag_1,Workplace Closures,General
+C2_Flag_Blank,Workplace Closures,No Data
+C2_Workplace closing_0,Workplace Closures,No Measures
+C2_Workplace closing_1,Workplace Closures,Recommend
+C2_Workplace closing_2,Workplace Closures,Require Some
+C2_Workplace closing_3,Workplace Closures,Require All
+C3_Cancel public events_0,Public Events,No Measures
+C3_Cancel public events_1,Public Events,Recommend
+C3_Cancel public events_2,Public Events,Require
+C3_Cancel public events_Blank,Public Events,No Data
+C3_Flag_0,Public Events,Targeted
+C3_Flag_1,Public Events,General
+C3_Flag_Blank,Public Events,No Data
+C4_Flag_0,Gathering Restrictions,Targeted
+C4_Flag_1,Gathering Restrictions,General
+C4_Flag_Blank,Gathering Restrictions,No Data
+C4_Restrictions on gatherings_0,Gathering Restrictions,None
+C4_Restrictions on gatherings_1,Gathering Restrictions,Large
+C4_Restrictions on gatherings_2,Gathering Restrictions,Medium
+C4_Restrictions on gatherings_3,Gathering Restrictions,Small
+C5_Close public transport_0,Public Transport Closures,No Measures
+C5_Close public transport_1,Public Transport Closures,Recommend
+C5_Close public transport_2,Public Transport Closures,Require
+C5_Close public transport_Blank,Public Transport Closures,None
+C5_Flag_0,Public Transport Closures,Targeted
+C5_Flag_1,Public Transport Closures,General
+C5_Flag_Blank,Public Transport Closures,No Data
+C6_Flag_0,Stay at Home,Targeted
+C6_Flag_1,Stay at Home,General
+C6_Flag_Blank,Stay at Home,No Data
+C6_Stay at home requirements_0,Stay at Home,No Measures
+C6_Stay at home requirements_1,Stay at Home,Recommend
+C6_Stay at home requirements_2,Stay at Home,Require But 3
+C6_Stay at home requirements_3,Stay at Home,Require Strict
+C7_Flag_0,Internal Movements,Targeted
+C7_Flag_1,Internal Movements,General
+C7_Flag_Blank,Internal Movements,No Data
+C7_Restrictions on internal movement_0,Internal Movements,No Measures
+C7_Restrictions on internal movement_1,Internal Movements,Recommend
+C7_Restrictions on internal movement_2,Internal Movements,Require
+C7_Restrictions on internal movement_Blank,Internal Movements,No Data
+C8_International travel controls_0,International Travel,No Measures
+C8_International travel controls_1,International Travel,Screen Arrivals
+C8_International travel controls_2,International Travel,Quarantine Arrivals
+C8_International travel controls_3,International Travel,Ban Arrivals
+E1_Flag_0,Income Support,Sector Workers
+E1_Flag_1,Income Support,All Workers
+E1_Income support_0,Income Support,No Income Support
+E1_Income support_1,Income Support,Less than 50%
+E1_Income support_2,Income Support,More than 50%
+E1_Income support_Blank,Income Support,No Data
+E2_Debt/contract relief_0,Debt Relief,No Support
+E2_Debt/contract relief_1,Debt Relief,Narrow
+E2_Debt/contract relief_2,Debt Relief,Broad
+E3_Fiscal measures_0,Fiscal Measures,No New Spending
+E3_Fiscal measures_Blank,Fiscal Measures,No Data
+E4_International support_0,International Support,No New Spending
+E4_International support_Blank,International Support,No Data
+H1_Flag_0,Public Information,Targeted
+H1_Flag_1,Public Information,General
+H1_Flag_Blank,Public Information,No Data
+H1_Public information campaigns_0,Public Information,None
+H1_Public information campaigns_1,Public Information,Caution
+H1_Public information campaigns_2,Public Information,Co-ordinated
+H1_Public information campaigns_Blank,Public Information,No Data
+H2_Testing policy_0,Testing Policy,None
+H2_Testing policy_1,Testing Policy,Symptoms and Criteria
+H2_Testing policy_2,Testing Policy,Anyone With Symptoms
+H2_Testing policy_3,Testing Policy,Public
+H3_Contact tracing_0,Contact Tracing,None
+H4_Emergency investment in healthcare_0,Emergency Investment,No New Spending
+H4_Emergency investment in healthcare_Blank,Emergency Investment,No Data
+H5_Investment in vaccines_0,Vaccine Investment,No New Spending
+H5_Investment in vaccines_Blank,Vaccine Investment,No Data
+H6_Facial Coverings_0,Facial Coverings,No Policy
+H6_Facial Coverings_1,Facial Coverings,Recommend
+H6_Facial Coverings_2,Facial Coverings,Require Some
+H6_Facial Coverings_3,Facial Coverings,Require All
+H6_Flag_0,Vaccine Policy,Targeted
+H6_Flag_1,Vaccine Policy,General
+H6_Flag_Blank,Vaccine Policy,No Data
+H7_Flag_0,Vaccine Policy,Private
+H7_Flag_1,Vaccine Policy,Public
+H7_Flag_Blank,Vaccine Policy,No Data
+H7_Vaccination Policy_0,Vaccine Policy,None Available
+H7_Vaccination Policy_1,Vaccine Policy,One
+H7_Vaccination Policy_2,Vaccine Policy,Two
+H7_Vaccination Policy_3,Vaccine Policy,All
+H8_Flag_0,Protect Elderly,Targeted
+H8_Flag_1,Protect Elderly,General
+H8_Flag_Blank,Protect Elderly,No Data
+H8_Protection of elderly people_0,Protect Elderly,No Measures
+H8_Protection of elderly people_1,Protect Elderly,Recommend
+H8_Protection of elderly people_2,Protect Elderly,Narrow
+H8_Protection of elderly people_3,Protect Elderly,Extensive
+V1_Vaccine prioritisation (summary)_0,Vaccine Prioritisation,No Plan
+V3_Vaccine financial support (summary)_Blank,Vaccine Finance,No Plan

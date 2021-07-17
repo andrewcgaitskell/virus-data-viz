@@ -1,0 +1,116 @@
+,ActivityLong,Join
+5,C1_Flag_ targeted ,C1_0
+5,C1_Flag_ general ,C1_1
+5,C1_Flag_ no data ,C1_Blank
+4,C1_School closing_ no measures ,C1_0
+4,C1_School closing_ recommend closing or all schools open with alterations resulting in significant differences compared to non,C1_1
+4,"C1_School closing_ require closing (only some levels or categories, eg just high school, or just public schools) ",C1_2
+4,C1_School closing_ require closing all levels ,C1_3
+7,C2_Flag_ targeted ,C2_0
+7,C2_Flag_ general ,C2_1
+7,C2_Flag_ no data ,C2_Blank
+6,C2_Workplace closing_ no measures ,C2_0
+6,C2_Workplace closing_ recommend closing (or recommend work from home) or all businesses open with alterations resulting in significant differences compared to non,C2_1
+6,C2_Workplace closing_ require closing (or work from home) for some sectors or categories of workers ,C2_2
+6,C2_Workplace closing_ require closing (or work from home) for all,C2_3
+8,C3_Cancel public events_ no measures ,C3_0
+8,C3_Cancel public events_ recommend cancelling ,C3_1
+8,C3_Cancel public events_ require cancelling ,C3_2
+8,C3_Cancel public events_ no data ,C3_Blank
+9,C3_Flag_ targeted ,C3_0
+9,C3_Flag_ general ,C3_1
+9,C3_Flag_ no data ,C3_Blank
+11,C4_Flag_ targeted ,C4_0
+11,C4_Flag_ general ,C4_1
+11,C4_Flag_ no data ,C4_Blank
+10,C4_Restrictions on gatherings_ no restrictions ,C4_0
+10,C4_Restrictions on gatherings_ restrictions on very large gatherings (the limit is above 1000 people) ,C4_1
+10,C4_Restrictions on gatherings_ restrictions on gatherings between 101,C4_2
+10,C4_Restrictions on gatherings_ restrictions on gatherings between 11,C4_3
+12,C5_Close public transport_ no measures ,C5_0
+12,C5_Close public transport_ recommend closing (or significantly reduce volume/route/means of transport available) ,C5_1
+12,C5_Close public transport_ require closing (or prohibit most citizens from using it) ,C5_2
+12,C5_Close public transport_ no data ,C5_Blank
+13,C5_Flag_ targeted ,C5_0
+13,C5_Flag_ general ,C5_1
+13,C5_Flag_ no data ,C5_Blank
+15,C6_Flag_ targeted ,C6_0
+15,C6_Flag_ general ,C6_1
+15,C6_Flag_ no data ,C6_Blank
+14,C6_Stay at home requirements_ no measures ,C6_0
+14,C6_Stay at home requirements_ recommend not leaving house ,C6_1
+14,"C6_Stay at home requirements_ require not leaving house with exceptions for daily exercise, grocery shopping, and 'essential' trips ",C6_2
+14,"C6_Stay at home requirements_ require not leaving house with minimal exceptions (eg allowed to leave once a week, or only one person can leave at a time, etc) ",C6_3
+17,C7_Flag_ targeted ,C7_0
+17,C7_Flag_ general ,C7_1
+17,C7_Flag_ no data ,C7_Blank
+16,C7_Restrictions on internal movement_ no measures ,C7_0
+16,C7_Restrictions on internal movement_ recommend not to travel between regions/cities ,C7_1
+16,C7_Restrictions on internal movement_ internal movement restrictions in place ,C7_2
+16,C7_Restrictions on internal movement_ no data ,C7_Blank
+18,C8_International travel controls_ no restrictions ,C8_0
+18,C8_International travel controls_ screening arrivals ,C8_1
+18,C8_International travel controls_ quarantine arrivals from some or all regions ,C8_2
+18,C8_International travel controls_ ban arrivals from some regions ,C8_3
+25,E1_Flag_ formal sector workers only or informal sector workers only ,E1_0
+25,"E1_Flag_ all workers
+",E1_1
+24,E1_Income support` <br/>(for households)_ no income support ,E1_0
+24,"E1_Income support` <br/>(for households)_ government is replacing less than 50% of lost salary (or if a flat sum, it is less than 50% median salary) ",E1_1
+24,"E1_Income support` <br/>(for households)_ government is replacing 50% or more of lost salary (or if a flat sum, it is greater than 50% median salary) ",E1_2
+24,E1_Income support` <br/>(for households)_ no data ,E1_Blank
+26,E2_Debt/contract relief` <br/>(for households)_ no debt/contract relief ,E2_0
+26,"E2_Debt/contract relief` <br/>(for households)_ narrow relief, specific to one kind of contract ",E2_1
+26,E2_Debt/contract relief` <br/>(for households)_ broad debt/contract relief ,E2_2
+27,E3_Fiscal measures_ no new spending that day ,E3_0
+27,E3_Fiscal measures_ no data ,E3_Blank
+28,E4_International support_ no new spending that day ,E4_0
+28,E4_International support_ no data ,E4_Blank
+35,H1_Flag_ targeted ,H1_0
+35,H1_Flag_ general ,H1_1
+35,H1_Flag_ no data ,H1_Blank
+34,H1_Public information campaigns_ no Covid,H1_0
+34,H1_Public information campaigns_ public officials urging caution about Covid,H1_1
+34,H1_Public information campaigns_ coordinated public information campaign (eg across traditional and social media) ,H1_2
+34,H1_Public information campaigns_ no data ,H1_Blank
+36,H2_Testing policy_ no testing policy ,H2_0
+36,"H2_Testing policy_ only those who both (a) have symptoms AND (b) meet specific criteria (eg key workers, admitted to hospital, came into contact with a known case, returned from overseas) ",H2_1
+36,H2_Testing policy_ testing of anyone showing Covid,H2_2
+36,"H2_Testing policy_ open public testing (eg ""drive through"" testing available to asymptomatic people) ",H2_3
+37,H3_Contact tracing_ no contact tracing ,H3_0
+37,H3_Contact tracing_ limited contact tracing; not done for all cases ,H3_1
+37,H3_Contact tracing_ comprehensive contact tracing; done for all identified cases ,H3_2
+38,H4_Emergency investment in healthcare_ no new spending that day ,H4_0
+38,H4_Emergency investment in healthcare_ no data ,H4_Blank
+39,H5_Investment in vaccines_ no new spending that day ,H5_0
+39,H5_Investment in vaccines_ no data ,H5_Blank
+40,H6_Facial Coverings_ No policy ,H6_0
+40,H6_Facial Coverings_ Recommended ,H6_1
+40,"H6_Facial Coverings_ Required in some specified shared/public spaces outside the home with other people present, or some situations when social distancing not possible ",H6_2
+40,H6_Facial Coverings_ Required in all shared/public spaces outside the home with other people present or all situations when social distancing not possible ,H6_3
+41,H6_Flag_ targeted ,H6_0
+41,H6_Flag_ general ,H6_1
+41,H6_Flag_ no data ,H6_Blank
+43,"H7_Flag_ At cost to individual (or funded by NGO, insurance, or partially government funded) ",H7_0
+43,H7_Flag_ No or minimal cost to individual (government funded or subsidised) ,H7_1
+43,H7_Flag_ no data ,H7_Blank
+42,H7_Vaccination Policy_ No availability ,H7_0
+42,H7_Vaccination Policy_ Availability for ONE of following: key workers/ clinically vulnerable groups (non elderly) / elderly groups ,H7_1
+42,H7_Vaccination Policy_ Availability for TWO of following: key workers/ clinically vulnerable groups (non elderly) / elderly groups ,H7_2
+42,H7_Vaccination Policy_ Availability for ALL of following: key workers/ clinically vulnerable groups (non elderly) / elderly groups ,H7_3
+45,H8_Flag_ targeted ,H8_0
+45,H8_Flag_ general ,H8_1
+45,H8_Flag_ no data ,H8_Blank
+44,H8_Protection of elderly people_ no measures ,H8_0
+44,"H8_Protection of elderly people_ Recommended isolation, hygiene, and visitor restriction measures in LTCFs and/or elderly  people to stay at home ",H8_1
+44,"H8_Protection of elderly people_ Narrow restrictions for isolation, hygiene in LTCFs, some limitations on external visitors and/or restrictions protecting elderly people at home ",H8_2
+44,"H8_Protection of elderly people_ Extensive restrictions for isolation and hygiene in LTCFs, all non",H8_3
+53,V1_Vaccine prioritisation (summary)_ no plan ,V1_0
+64,V3_Vaccine financial support (summary)_ no data ,V3_Blank
+55,"Vaccine eligibility/availability <br/> <br/>`V2_0-4 yrs Infants` <br/>`V2_5-15 yrs Young people` <br/>`V2_General 16-19 yrs` <br/>`V2_General 20-24 yrs` <br/>`V2_General 25-29 yrs` <br/>`V2_General 30-34 yrs` <br/>`V2_General 35-39 yrs` <br/>`V2_General 40-44 yrs` <br/>`V2_General 45-49 yrs` <br/>`V2_General 50-54 yrs` <br/>`V2_General 55-59 yrs` <br/>`V2_General 60-64 yrs` <br/>`V2_General 65-69 yrs` <br/>`V2_General 70-74 yrs` <br/>`V2_General 75-79 yrs` <br/>`V2_General 80+ yrs` <br/>`V2_At Risk 16-19 yrs` <br/>`V2_At Risk 20-24 yrs` <br/>`V2_At Risk 25-29 yrs` <br/>`V2_At Risk 30-34 yrs` <br/>`V2_At Risk 35-39 yrs` <br/>`V2_At Risk 40-44 yrs` <br/>`V2_At Risk 45-49 yrs` <br/>`V2_At Risk 50-54 yrs` <br/>`V2_At Risk 55-59 yrs` <br/>`V2_At Risk 60-64 yrs` <br/>`V2_At Risk 65-69 yrs` <br/>`V2_At Risk 70-74 yrs` <br/>`V2_At Risk 75-79 yrs` <br/>`V2_At Risk 80+ yrs` <br/>`V2_Airport/Border/Airline Staff` <br/>`V2_Clinically vulnerable/chronic illness/significant underlying health condition (excluding elderly and disabled)` <br/>`V2_Crowded/communal living conditions (dormitories for migrant workers, temporary accommodations)` <br/>`V2_Disabled People` <br/>`V2_Educators` <br/>`V2_Ethnic minorities` <br/>`V2_Factory workers` <br/>`V2_Frontline/essential workers (when subcategories not specified)` <br/>`V2_Frontline retail workers` <br/>`V2_Healthcare workers/carers (excluding care home staff)` <br/>`V2_Military` <br/>`V2_Other 'high contact' professions/groups (taxi drivers, security guards)` <br/>`V2_People living with a vulnerable/shielding person or other priority group` <br/>`V2_Police/ first responders` <br/>`V2_Pregnant people` <br/>`V2_Primary and secondary school students` <br/>`V2_Religious/Spiritual Leaders` <br/>`V2_Residents in an elderly care home` <br/>`V2_Staff working in an elderly care home` <br/>`V2_Tertiary education students_ vaccines are not being made available to this category ",Vac_0
+55,"Vaccine eligibility/availability <br/> <br/>`V2_0-4 yrs Infants` <br/>`V2_5-15 yrs Young people` <br/>`V2_General 16-19 yrs` <br/>`V2_General 20-24 yrs` <br/>`V2_General 25-29 yrs` <br/>`V2_General 30-34 yrs` <br/>`V2_General 35-39 yrs` <br/>`V2_General 40-44 yrs` <br/>`V2_General 45-49 yrs` <br/>`V2_General 50-54 yrs` <br/>`V2_General 55-59 yrs` <br/>`V2_General 60-64 yrs` <br/>`V2_General 65-69 yrs` <br/>`V2_General 70-74 yrs` <br/>`V2_General 75-79 yrs` <br/>`V2_General 80+ yrs` <br/>`V2_At Risk 16-19 yrs` <br/>`V2_At Risk 20-24 yrs` <br/>`V2_At Risk 25-29 yrs` <br/>`V2_At Risk 30-34 yrs` <br/>`V2_At Risk 35-39 yrs` <br/>`V2_At Risk 40-44 yrs` <br/>`V2_At Risk 45-49 yrs` <br/>`V2_At Risk 50-54 yrs` <br/>`V2_At Risk 55-59 yrs` <br/>`V2_At Risk 60-64 yrs` <br/>`V2_At Risk 65-69 yrs` <br/>`V2_At Risk 70-74 yrs` <br/>`V2_At Risk 75-79 yrs` <br/>`V2_At Risk 80+ yrs` <br/>`V2_Airport/Border/Airline Staff` <br/>`V2_Clinically vulnerable/chronic illness/significant underlying health condition (excluding elderly and disabled)` <br/>`V2_Crowded/communal living conditions (dormitories for migrant workers, temporary accommodations)` <br/>`V2_Disabled People` <br/>`V2_Educators` <br/>`V2_Ethnic minorities` <br/>`V2_Factory workers` <br/>`V2_Frontline/essential workers (when subcategories not specified)` <br/>`V2_Frontline retail workers` <br/>`V2_Healthcare workers/carers (excluding care home staff)` <br/>`V2_Military` <br/>`V2_Other 'high contact' professions/groups (taxi drivers, security guards)` <br/>`V2_People living with a vulnerable/shielding person or other priority group` <br/>`V2_Police/ first responders` <br/>`V2_Pregnant people` <br/>`V2_Primary and secondary school students` <br/>`V2_Religious/Spiritual Leaders` <br/>`V2_Residents in an elderly care home` <br/>`V2_Staff working in an elderly care home` <br/>`V2_Tertiary education students_ vaccines are being made available to this category ",Vac_1
+56,"Vaccine financial support <br/> <br/>`V3_0-4 yrs Infants` <br/>`V3_5-15 yrs Young people` <br/>`V3_General 16-19 yrs` <br/>`V3_General 20-24 yrs` <br/>`V3_General 25-29 yrs` <br/>`V3_General 30-34 yrs` <br/>`V3_General 35-39 yrs` <br/>`V3_General 40-44 yrs` <br/>`V3_General 45-49 yrs` <br/>`V3_General 50-54 yrs` <br/>`V3_General 55-59 yrs` <br/>`V3_General 60-64 yrs` <br/>`V3_General 65-69 yrs` <br/>`V3_General 70-74 yrs` <br/>`V3_General 75-79 yrs` <br/>`V3_General 80+ yrs` <br/>`V3_At Risk 16-19 yrs` <br/>`V3_At Risk 20-24 yrs` <br/>`V3_At Risk 25-29 yrs` <br/>`V3_At Risk 30-34 yrs` <br/>`V3_At Risk 35-39 yrs` <br/>`V3_At Risk 40-44 yrs` <br/>`V3_At Risk 45-49 yrs` <br/>`V3_At Risk 50-54 yrs` <br/>`V3_At Risk 55-59 yrs` <br/>`V3_At Risk 60-64 yrs` <br/>`V3_At Risk 65-69 yrs` <br/>`V3_At Risk 70-74 yrs` <br/>`V3_At Risk 75-79 yrs` <br/>`V3_At Risk 80+ yrs` <br/>`V3_Airport/Border/Airline Staff` <br/>`V3_Clinically vulnerable/chronic illness/significant underlying health condition (excluding elderly and disabled)` <br/>`V3_Crowded/communal living conditions (dormitories for migrant workers, temporary accommodations)` <br/>`V3_Disabled People` <br/>`V3_Educators` <br/>`V3_Ethnic minorities` <br/>`V3_Factory workers` <br/>`V3_Frontline/essential workers (when subcategories not specified)` <br/>`V3_Frontline retail workers` <br/>`V3_Healthcare workers/carers (excluding care home staff)` <br/>`V3_Military` <br/>`V3_Other 'high contact' professions/groups (taxi drivers, security guards)` <br/>`V3_People living with a vulnerable/shielding person or other priority group` <br/>`V3_Police/ first responders` <br/>`V3_Pregnant people` <br/>`V3_Primary and secondary school students` <br/>`V3_Religious/Spiritual Leaders` <br/>`V3_Residents in an elderly care home` <br/>`V3_Staff working in an elderly care home` <br/>`V3_Tertiary education students_ full cost borne by the individual (or through private health insurance) or no policy ",Vac_1
+56,"Vaccine financial support <br/> <br/>`V3_0-4 yrs Infants` <br/>`V3_5-15 yrs Young people` <br/>`V3_General 16-19 yrs` <br/>`V3_General 20-24 yrs` <br/>`V3_General 25-29 yrs` <br/>`V3_General 30-34 yrs` <br/>`V3_General 35-39 yrs` <br/>`V3_General 40-44 yrs` <br/>`V3_General 45-49 yrs` <br/>`V3_General 50-54 yrs` <br/>`V3_General 55-59 yrs` <br/>`V3_General 60-64 yrs` <br/>`V3_General 65-69 yrs` <br/>`V3_General 70-74 yrs` <br/>`V3_General 75-79 yrs` <br/>`V3_General 80+ yrs` <br/>`V3_At Risk 16-19 yrs` <br/>`V3_At Risk 20-24 yrs` <br/>`V3_At Risk 25-29 yrs` <br/>`V3_At Risk 30-34 yrs` <br/>`V3_At Risk 35-39 yrs` <br/>`V3_At Risk 40-44 yrs` <br/>`V3_At Risk 45-49 yrs` <br/>`V3_At Risk 50-54 yrs` <br/>`V3_At Risk 55-59 yrs` <br/>`V3_At Risk 60-64 yrs` <br/>`V3_At Risk 65-69 yrs` <br/>`V3_At Risk 70-74 yrs` <br/>`V3_At Risk 75-79 yrs` <br/>`V3_At Risk 80+ yrs` <br/>`V3_Airport/Border/Airline Staff` <br/>`V3_Clinically vulnerable/chronic illness/significant underlying health condition (excluding elderly and disabled)` <br/>`V3_Crowded/communal living conditions (dormitories for migrant workers, temporary accommodations)` <br/>`V3_Disabled People` <br/>`V3_Educators` <br/>`V3_Ethnic minorities` <br/>`V3_Factory workers` <br/>`V3_Frontline/essential workers (when subcategories not specified)` <br/>`V3_Frontline retail workers` <br/>`V3_Healthcare workers/carers (excluding care home staff)` <br/>`V3_Military` <br/>`V3_Other 'high contact' professions/groups (taxi drivers, security guards)` <br/>`V3_People living with a vulnerable/shielding person or other priority group` <br/>`V3_Police/ first responders` <br/>`V3_Pregnant people` <br/>`V3_Primary and secondary school students` <br/>`V3_Religious/Spiritual Leaders` <br/>`V3_Residents in an elderly care home` <br/>`V3_Staff working in an elderly care home` <br/>`V3_Tertiary education students_ partially funded by government and individual pays nominal fee ",Vac_2
+56,"Vaccine financial support <br/> <br/>`V3_0-4 yrs Infants` <br/>`V3_5-15 yrs Young people` <br/>`V3_General 16-19 yrs` <br/>`V3_General 20-24 yrs` <br/>`V3_General 25-29 yrs` <br/>`V3_General 30-34 yrs` <br/>`V3_General 35-39 yrs` <br/>`V3_General 40-44 yrs` <br/>`V3_General 45-49 yrs` <br/>`V3_General 50-54 yrs` <br/>`V3_General 55-59 yrs` <br/>`V3_General 60-64 yrs` <br/>`V3_General 65-69 yrs` <br/>`V3_General 70-74 yrs` <br/>`V3_General 75-79 yrs` <br/>`V3_General 80+ yrs` <br/>`V3_At Risk 16-19 yrs` <br/>`V3_At Risk 20-24 yrs` <br/>`V3_At Risk 25-29 yrs` <br/>`V3_At Risk 30-34 yrs` <br/>`V3_At Risk 35-39 yrs` <br/>`V3_At Risk 40-44 yrs` <br/>`V3_At Risk 45-49 yrs` <br/>`V3_At Risk 50-54 yrs` <br/>`V3_At Risk 55-59 yrs` <br/>`V3_At Risk 60-64 yrs` <br/>`V3_At Risk 65-69 yrs` <br/>`V3_At Risk 70-74 yrs` <br/>`V3_At Risk 75-79 yrs` <br/>`V3_At Risk 80+ yrs` <br/>`V3_Airport/Border/Airline Staff` <br/>`V3_Clinically vulnerable/chronic illness/significant underlying health condition (excluding elderly and disabled)` <br/>`V3_Crowded/communal living conditions (dormitories for migrant workers, temporary accommodations)` <br/>`V3_Disabled People` <br/>`V3_Educators` <br/>`V3_Ethnic minorities` <br/>`V3_Factory workers` <br/>`V3_Frontline/essential workers (when subcategories not specified)` <br/>`V3_Frontline retail workers` <br/>`V3_Healthcare workers/carers (excluding care home staff)` <br/>`V3_Military` <br/>`V3_Other 'high contact' professions/groups (taxi drivers, security guards)` <br/>`V3_People living with a vulnerable/shielding person or other priority group` <br/>`V3_Police/ first responders` <br/>`V3_Pregnant people` <br/>`V3_Primary and secondary school students` <br/>`V3_Religious/Spiritual Leaders` <br/>`V3_Residents in an elderly care home` <br/>`V3_Staff working in an elderly care home` <br/>`V3_Tertiary education students_  fully covered by government funding, FREE ",Vac_3
+56,"Vaccine financial support <br/> <br/>`V3_0-4 yrs Infants` <br/>`V3_5-15 yrs Young people` <br/>`V3_General 16-19 yrs` <br/>`V3_General 20-24 yrs` <br/>`V3_General 25-29 yrs` <br/>`V3_General 30-34 yrs` <br/>`V3_General 35-39 yrs` <br/>`V3_General 40-44 yrs` <br/>`V3_General 45-49 yrs` <br/>`V3_General 50-54 yrs` <br/>`V3_General 55-59 yrs` <br/>`V3_General 60-64 yrs` <br/>`V3_General 65-69 yrs` <br/>`V3_General 70-74 yrs` <br/>`V3_General 75-79 yrs` <br/>`V3_General 80+ yrs` <br/>`V3_At Risk 16-19 yrs` <br/>`V3_At Risk 20-24 yrs` <br/>`V3_At Risk 25-29 yrs` <br/>`V3_At Risk 30-34 yrs` <br/>`V3_At Risk 35-39 yrs` <br/>`V3_At Risk 40-44 yrs` <br/>`V3_At Risk 45-49 yrs` <br/>`V3_At Risk 50-54 yrs` <br/>`V3_At Risk 55-59 yrs` <br/>`V3_At Risk 60-64 yrs` <br/>`V3_At Risk 65-69 yrs` <br/>`V3_At Risk 70-74 yrs` <br/>`V3_At Risk 75-79 yrs` <br/>`V3_At Risk 80+ yrs` <br/>`V3_Airport/Border/Airline Staff` <br/>`V3_Clinically vulnerable/chronic illness/significant underlying health condition (excluding elderly and disabled)` <br/>`V3_Crowded/communal living conditions (dormitories for migrant workers, temporary accommodations)` <br/>`V3_Disabled People` <br/>`V3_Educators` <br/>`V3_Ethnic minorities` <br/>`V3_Factory workers` <br/>`V3_Frontline/essential workers (when subcategories not specified)` <br/>`V3_Frontline retail workers` <br/>`V3_Healthcare workers/carers (excluding care home staff)` <br/>`V3_Military` <br/>`V3_Other 'high contact' professions/groups (taxi drivers, security guards)` <br/>`V3_People living with a vulnerable/shielding person or other priority group` <br/>`V3_Police/ first responders` <br/>`V3_Pregnant people` <br/>`V3_Primary and secondary school students` <br/>`V3_Religious/Spiritual Leaders` <br/>`V3_Residents in an elderly care home` <br/>`V3_Staff working in an elderly care home` <br/>`V3_Tertiary education students_ no data ",Vac_Blank
+54,"Vaccine prioritisation <br/> <br/>`V1_0-4 yrs Infants` <br/>`V1_5-15 yrs Young people` <br/>`V1_General 16-19 yrs` <br/>`V1_General 20-24 yrs` <br/>`V1_General 25-29 yrs` <br/>`V1_General 30-34 yrs` <br/>`V1_General 35-39 yrs` <br/>`V1_General 40-44 yrs` <br/>`V1_General 45-49 yrs` <br/>`V1_General 50-54 yrs` <br/>`V1_General 55-59 yrs` <br/>`V1_General 60-64 yrs` <br/>`V1_General 65-69 yrs` <br/>`V1_General 70-74 yrs` <br/>`V1_General 75-79 yrs` <br/>`V1_General 80+ yrs` <br/>`V1_At Risk 16-19 yrs` <br/>`V1_At Risk 20-24 yrs` <br/>`V1_At Risk 25-29 yrs` <br/>`V1_At Risk 30-34 yrs` <br/>`V1_At Risk 35-39 yrs` <br/>`V1_At Risk 40-44 yrs` <br/>`V1_At Risk 45-49 yrs` <br/>`V1_At Risk 50-54 yrs` <br/>`V1_At Risk 55-59 yrs` <br/>`V1_At Risk 60-64 yrs` <br/>`V1_At Risk 65-69 yrs` <br/>`V1_At Risk 70-74 yrs` <br/>`V1_At Risk 75-79 yrs` <br/>`V1_At Risk 80+ yrs` <br/>`V1_Airport/Border/Airline Staff` <br/>`V1_Clinically vulnerable/chronic illness/significant underlying health condition (excluding elderly and disabled)` <br/>`V1_Crowded/communal living conditions (dormitories for migrant workers, temporary accommodations)` <br/>`V1_Disabled People` <br/>`V1_Educators` <br/>`V1_Ethnic minorities` <br/>`V1_Factory workers` <br/>`V1_Frontline/essential workers (when subcategories not specified)` <br/>`V1_Frontline retail workers` <br/>`V1_Healthcare workers/carers (excluding care home staff)` <br/>`V1_Military` <br/>`V1_Other 'high contact' professions/groups (taxi drivers, security guards)` <br/>`V1_People living with a vulnerable/shielding person or other priority group` <br/>`V1_Police/ first responders` <br/>`V1_Pregnant people` <br/>`V1_Primary and secondary school students` <br/>`V1_Religious/Spiritual Leaders` <br/>`V1_Residents in an elderly care home` <br/>`V1_Staff working in an elderly care home` <br/>`V1_Tertiary education students_ranked categories will share the same number ","Vac_1,2,3,4...–categoryhasbeenselectedforprioritisation;numberrepresentstherankofprioritisation;equal"
