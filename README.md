@@ -1,8 +1,6 @@
-# Running voila on a private server
+# Running Dash on a private server
 
 started with:
-
-        https://voila.readthedocs.io/en/latest/deploy.html#running-voila-on-a-private-server
         
 ## Prerequisites
 
@@ -90,101 +88,32 @@ paste the following content:
 
 ## Setup an example project
 
-    cd /home/ubuntu
-
-    git clone https://github.com/voila-dashboards/voila.git
-
-    cd voila
-
-    nano requirements.txt
-
-paste
-
-    bqplot
-    ipympl
-    ipyvolume
-    scipy
-    voila
-
-save control x then Y
 
 ## install the dependencies:
 
     python3 -m pip install -r requirements.txt
 
-## Create script to run Voila to avoid the following error
-
-    https://superuser.com/questions/1238471/systemd-error-executable-path-is-not-absolute
-
+  
 ## Shell Script to Run Voila for one dashboard
 
-    cd /home/ubuntu/voila
-
-    nano voilascript.sh
-
-    paste following:
-
-    voila --no-browser /home/ubuntu/voila/notebooks/basics.ipynb
-
-    ctrl x Y
-
-    chmod +x voilascript.sh
 
 ## Shell Script to Run Voila for Folder of Dashboards
 
-    cd /home/ubuntu/voila
-
-    nano voilascript.sh
-
-    paste following:
-
-    voila --no-browser /home/ubuntu/voila/notebooks/
-
-    ctrl x Y
-
-    chmod +x voilascript.sh
-
 ## Create a new systemd service for running voila
 
-    mkdir /usr/lib/systemd/system
-    cd /usr/lib/systemd/system
-
-    nano voila.service
-
-The service will ensure voila is automatically restarted on startup:
-
-        [Unit]
-        Description=Voila
-
-        [Service]
-        Type=simple
-        PIDFile=/run/voila.pid
-        ExecStart=/bin/bash /home/ubuntu/voila/voilascript.sh
-        User=ubuntu
-        WorkingDirectory=/home/ubuntu/
-        Restart=always
-        RestartSec=10
-
-        [Install]
-        WantedBy=multi-user.target
 
 
-control x Y
+## Enable and start the service:
 
-
-In this example voila is started with voila --no-browser voila/notebooks/basics.ipynb to serve a single notebook. You can edit the command to change this behavior and the notebooks voila is serving.
-
-## Enable and start the voila service:
-
-    sudo systemctl enable voila.service
-    sudo systemctl start voila.service
+    sudo systemctl enable .service
+    sudo systemctl start .service
 
 
 Note
 
 ## To check the logs for voila:
 
-    journalctl -u voila.service
+    journalctl -u .service
 
 ## Go to Domain
 
