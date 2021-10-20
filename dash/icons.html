@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Icon Example</title>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <link href="formatting.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<p id="icons"></p>
+
+<script>
+var icons = [
+    {
+        name: 'arrowRight',
+        path: 'M10 10 L54 32 L10 54 L16 32 Z'
+    },
+    {
+        name: 'arrowLeft',
+        path: 'M54 10 L10 32 L54 54 L48 32 Z'
+    },
+    {
+        name: 'arrowUp',
+        path: 'M10 54 L32 10 L54 54 L32 48 Z'
+    },
+    {
+        name: 'arrowDown',
+        path: 'M10 10 L32 54 L54 10 L32 16 Z'
+    }
+]
+
+var container = document.createElement('div')
+
+function formatSvg(icon, index) {
+    var svg = document.createElement('svg')
+    var path = document.createElement('path')
+
+    svg.setAttribute('id', icon.name)
+    svg.setAttribute('viewBox', '0 0 64 64')
+    svg.setAttribute('tabIndex', index + 1)
+    path.setAttribute('d', icon.path)
+    svg.appendChild(path)
+
+    container.appendChild(svg)
+}
+
+function formatContainer() {
+    icons.map(formatSvg)
+    return container.outerHTML
+}
+
+document.body.innerHTML = formatContainer()
+
+</script>
+
+
+</body>
+</html>

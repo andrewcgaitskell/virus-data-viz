@@ -1,0 +1,26 @@
+svg {
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #eee;
+    fill: currentColor;
+    stroke: currentColor;
+    stroke-width: 20;
+    stroke-linejoin: round;
+}
+
+svg:hover,
+svg:focus {
+    color: #0cf;
+}
+
+svg:focus {
+    outline-width: 1px;
+    outline-style: solid;
+    outline-offset: -1px;
+}
+
+svg:active {
+    color: #f06
+}
